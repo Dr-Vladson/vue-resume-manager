@@ -1,7 +1,24 @@
-@import './null.css';
 @import './color.css';
 @import './fonts.css';
 
-* {
+h2,h3,p,input, textarea {
+    font-family: 'Libre Baskerville', serif;
+}
+h1 {
     font-family: 'Lemon', serif;
+}
+
+.fh {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.fv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.body {
+    margin:0;
 }
