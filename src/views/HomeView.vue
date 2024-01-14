@@ -1,11 +1,13 @@
 <script setup>
 import ResumeCard from '../components/home-page/ResumeCard.vue'
+import CreateNewCard from '../components/home-page/CreateNewCard.vue'
 </script>
 
 <template>
   <main>
     <div class="home-container">
         <ResumeCard/>
+        <CreateNewCard/>
     </div>
   </main>
 </template>
