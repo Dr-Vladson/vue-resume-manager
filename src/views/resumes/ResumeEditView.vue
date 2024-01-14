@@ -1,4 +1,5 @@
 <script setup>
+import Button from '@/components/common/Button.vue';
 import IconQuotes from '@/components/icons/IconQuotes.vue'
 </script>
 <template>
@@ -38,9 +39,7 @@ import IconQuotes from '@/components/icons/IconQuotes.vue'
                 </div>
             </div>
             <div class="container container_flex-center">
-                <div class="submit-btn">
-                    <span>Save</span>
-                </div>
+                <Button title="Save"/>
             </div>
         </div>
     </main>
