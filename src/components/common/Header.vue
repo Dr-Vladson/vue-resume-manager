@@ -9,15 +9,17 @@
 <style scoped>
 .header {
     background-color: var(--main);
+    box-shadow: 0 0 5px 0 var(--second);
 }
 .header__container {
+    height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
 }
 .header__title {
-    font-size: 20px;
+    font-size: 30px;
     color: var(--second);
 }
 </style>
