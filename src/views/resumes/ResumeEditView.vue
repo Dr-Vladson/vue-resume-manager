@@ -15,13 +15,9 @@ import IconQuotes from '@/components/icons/IconQuotes.vue'
                             <input type="text" placeholder="Enter your position">
                         </h3>
                         <p class="contact-info__info">
-                            <a href="vladyslav070703@gmail.com"
-                                ><input type="text" placeholder="Enter your email">
-                            </a>
+                            <input type="text" placeholder="Enter your email">
                             |
-                            <a href="tel:+380994966282">
-                                <input type="text" placeholder="Enter your phone">
-                            </a>
+                            <input type="text" placeholder="Enter your phone">
                         </p>
                     </div>
                 </div>  

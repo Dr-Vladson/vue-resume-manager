@@ -11,7 +11,7 @@ import Button from '../common/Button.vue'
         <p class="resume-card__text">
             Junior Fullstack developer
         </p>
-        <RouterLink to="/watch-resume"><Button title="View resume"/></RouterLink>
+        <RouterLink to="/view-resume"><Button title="View resume"/></RouterLink>
     </div>
 </template>
 <style scoped>

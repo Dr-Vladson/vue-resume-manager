@@ -7,6 +7,8 @@ import CreateNewCard from '../components/home-page/CreateNewCard.vue'
   <main>
     <div class="home-container">
         <ResumeCard/>
+        <ResumeCard/>
+        <ResumeCard/>
         <CreateNewCard/>
     </div>
   </main>
@@ -14,8 +16,10 @@ import CreateNewCard from '../components/home-page/CreateNewCard.vue'
 <style scoped>
 .home-container {
   display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
   gap: 20px;
-  margin: 0 auto;
+  margin: 30px auto 0;
   padding: 0 30px;
   max-width: 1200px;
 }

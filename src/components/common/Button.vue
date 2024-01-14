@@ -11,10 +11,11 @@ defineProps({
 
 <style scoped>
 .btn {
+    text-align: center;
     color: var(--second);
     box-shadow: 0 0 5px 0 var(--second);
     background-color: var(--main);
-    width: 70px;
+    width: 90px;
     height: 45px;     
     font-family: 'Lemon', serif;
     display: flex;

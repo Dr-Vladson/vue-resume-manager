@@ -13,8 +13,8 @@ const router = createRouter({
       component: HomeViewVue
     },
     {
-      path: '/watch-resume',
-      name: 'Watch resume',
+      path: '/view-resume',
+      name: 'View resume',
       props: true,
       component: ResumeWatchView,
       //component: () => import('../views/resumes/ResumeWatchView.vue')
