@@ -11,3 +11,14 @@ export async function getResumes (){
         console.log(error)
     }
 }
+export async function getFullResume (id){
+    try {
+        const resp = await fetch(`http://localhost:8888/resume-full/${id}`)
+        const data = await resp.json()
+        console.log(data)
+        store.setCurrentFullResume(data)
+    }
+    catch (error) {
+        console.log(error)
+    }
+}

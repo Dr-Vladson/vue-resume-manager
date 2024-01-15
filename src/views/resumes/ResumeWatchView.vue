@@ -1,5 +1,15 @@
 <script setup>
 import IconQuotes from '@/components/icons/IconQuotes.vue'
+import { defineProps } from 'vue';
+import {getFullResume} from '../../features/queries'
+import {onMounted} from 'vue'
+import { store } from '@/store';
+
+const props = defineProps(['id'])
+onMounted(() => {
+    getFullResume(props.id);
+});
+console.log(props.id)
 </script>
 <template>
     <main>
@@ -7,16 +17,16 @@ import IconQuotes from '@/components/icons/IconQuotes.vue'
             <div class="container">
                 <div class="resume__block">
                     <div class="contact-info">
-                        <h2 class="contact-info__header">Vladislav Liubashenko</h2>
+                        <h2 class="contact-info__header">{{ store.currentFullResume.name }}</h2>
                         <h3 class="contact-info__sub-header">
-                            Junior Fullstack developer
+                            {{ store.currentFullResume.position }}
                         </h3>
                         <p class="contact-info__info">
                             <a href="vladyslav070703@gmail.com"
-                                >vladyslav070703@gmail.com
+                                >{{ store.currentFullResume.email }}
                             </a>
                             |
-                            <a href="tel:+380994966282">+380994966282</a>
+                            <a href="tel:+380994966282">{{ store.currentFullResume.phone }}</a>
                         </p>
                     </div>
                 </div>  
@@ -28,17 +38,7 @@ import IconQuotes from '@/components/icons/IconQuotes.vue'
                             <IconQuotes/>
                         </div>
                         <p class="intro_text">
-                            I am an enthusiastic student of the Faculty of
-                            Informatics and Software Engineering at KPI. Being a
-                            responsible and organized individual has enabled me
-                            not only to independently learn various web
-                            technologies, but also to keep expanding my horizons
-                            in other different IT areas at the university.
-                            Currently, I am looking for an opportunity to deepen
-                            my knowledge and to get the team work experience in
-                            conditions, which are as close as possible to a
-                            commercial project, to be ready to take up the
-                            challenge of real projects in IT company afterwards.
+                            {{ store.currentFullResume.intro }}
                         </p>
                     </div>
                 </div>
@@ -48,9 +48,7 @@ import IconQuotes from '@/components/icons/IconQuotes.vue'
                     <div class="header-and-text-block">
                         <h3 class="header-and-text-block__header">Skills</h3>
                         <p class="header-and-text-block__text">
-                            HTML / CSS, JavaScript / TypeScript, React.js /
-                            Node.js, MsSQL / MySQL, Redux, Git / Github / Jira,
-                            С# / С++, WebStorm / VS Code / Visual Studio
+                            {{ store.currentFullResume.skills }}
                         </p>
                     </div>
                 </div>

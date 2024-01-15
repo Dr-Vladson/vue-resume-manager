@@ -11,6 +11,6 @@ export const store = reactive({
         this.resumesSimpleArray.push({id, name, position})
     },
     setCurrentFullResume(fullResume){
-        this.currentFullResume = currentFullResume
+        this.currentFullResume = fullResume
     }
 })

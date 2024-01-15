@@ -14,7 +14,7 @@ const props = defineProps(['id','name', 'position'])
         <p class="resume-card__text">
             {{ position }}
         </p>
-        <RouterLink to="/view-resume"><Button title="View resume"/></RouterLink>
+        <RouterLink :to="`/view-resume/${id}`"><Button title="View resume"/></RouterLink>
     </div>
 </template>
 <style scoped>
