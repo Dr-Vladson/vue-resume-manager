@@ -6,7 +6,7 @@ import {getResumes} from '../features/queries'
 import {onMounted} from 'vue'
 
 onMounted(() => {
-  getResumes();
+  if (!store.resumesSimpleArray[0]) getResumes();
 });
 </script>
 

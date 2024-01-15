@@ -9,7 +9,6 @@ const props = defineProps(['id'])
 onMounted(() => {
     getFullResume(props.id);
 });
-console.log(props.id)
 </script>
 <template>
     <main>

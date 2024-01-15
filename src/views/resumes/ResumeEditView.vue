@@ -1,16 +1,36 @@
 <script setup>
 import Button from '@/components/common/Button.vue';
-import { ref } from 'vue'
+import { getIsResumeValid } from '../../features/validators';
+import {createResume} from '../../features/queries'
+import {ref} from 'vue'
+import { useRouter } from 'vue-router';
 
+const router = useRouter()
 const name = ref('')
 const position = ref('')
 const email = ref('')
 const phone = ref('')
 const intro = ref('')
 const skills = ref('')
+const isDataInvalid = ref(false)
 
 function submitResume (){
-    // validate
+    if (getIsResumeValid(name.value, position.value, email.value, phone.value, intro.value, skills.value)){
+        isDataInvalid.value = false
+        const newResumeId = createResume({
+            name : name.value,
+            position: position.value,
+            email: email.value,
+            phone: phone.value,
+            intro: intro.value, 
+            skills: skills.value
+        })
+        console.log(newResumeId)
+        router.push("/")
+    }
+    else {
+        isDataInvalid.value = true
+    }
 }
 </script>
 <template>
@@ -44,6 +64,7 @@ function submitResume (){
                 <div class="resume__block">
                     <textarea class="header-and-text-block__text" v-model="skills" placeholder="Enter your skills"></textarea>
                 </div>
+                <p class="invalid-text" v-if="isDataInvalid">Enter valid data!</p>
             </div>
             <div class="container container_flex-center">
                 <div @click.prevent="submitResume">

@@ -99,3 +99,7 @@ textarea.header-and-text-block__text {
     height: 50px;
     text-align: start;
 }
+.invalid-text {
+    text-align: center;
+    color: red;
+}
