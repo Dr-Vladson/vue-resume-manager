@@ -14,7 +14,7 @@ onMounted(() => {
   <main>
     <div v-if="!store.resumesSimpleArray[0]" class="loading-container"><h2>Loading</h2></div>
     <div v-else class="home-container">
-        <ResumeCard v-for="resume in store.resumesSimpleArray" :key="resume.id"/>
+        <ResumeCard v-for="resume in store.resumesSimpleArray" :key="resume.id" :id="resume.id" :name="resume.name" :position="resume.position"/>
         <CreateNewCard/>
     </div>
   </main>

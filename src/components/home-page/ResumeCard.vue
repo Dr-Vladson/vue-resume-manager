@@ -1,15 +1,18 @@
 <script setup>
 import { RouterLink } from 'vue-router';
 import Button from '../common/Button.vue'
+import { defineProps } from 'vue';
+
+const props = defineProps(['id','name', 'position'])
 </script>
 
 <template>
     <div class="resume-card">
         <h2 class="resume-card__title">
-            Vladyslav Liubashenko
+            {{ name }}
         </h2>
         <p class="resume-card__text">
-            Junior Fullstack developer
+            {{ position }}
         </p>
         <RouterLink to="/view-resume"><Button title="View resume"/></RouterLink>
     </div>
