@@ -8,121 +8,13 @@
         "intro": "I am an enthusiastic student of the Faculty of Informatics and Software Engineering at KPI. Being a responsible and organized individual has enabled me not only to independently learn various web technologies, but also to keep expanding my horizons in other different IT areas at the university. Currently, I am looking for an opportunity to deepen my knowledge and to get the team work experience in conditions, which are as close as possible to a commercial project, to be ready to take up the challenge of real projects in IT company afterwards.",
         "skills": "HTML / CSS, JavaScript / TypeScript, React.js, MsSQL / MySQL, Redux, Git / Github / Jira, С# / С++, WebStorm / VS Code / Visual Studio"
     },
-    "8afe1706-2a11-4207-aa37-33b7875b7143": {
-        "id": "8afe1706-2a11-4207-aa37-33b7875b7143",
-        "name": "Antion",
-        "position": "dd",
-        "email": "ss",
-        "phone": "ss",
-        "intro": "ss",
-        "skills": "ss"
-    },
-    "a12b2a4c-5f2d-46c8-be66-4ece6b23273e": {
-        "id": "a12b2a4c-5f2d-46c8-be66-4ece6b23273e",
-        "name": "+380788956789",
-        "position": "+380788956789",
+    "65202a1b-0f17-45aa-ac48-048a212c179f": {
+        "id": "65202a1b-0f17-45aa-ac48-048a212c179f",
+        "name": "Effie Flora Jasmin",
+        "position": "Pet",
         "email": "effie@gmail.com",
         "phone": "+380788956789",
-        "intro": "+380788956789",
-        "skills": "+380788956789"
-    },
-    "1334e162-dac8-431c-84e1-7b0c3e9ccb0e": {
-        "id": "1334e162-dac8-431c-84e1-7b0c3e9ccb0e",
-        "name": "effie@gmail.com",
-        "position": "effie@gmail.com",
-        "email": "effie@gmail.com",
-        "phone": "+380788956781",
-        "intro": "effie@gmail.com",
-        "skills": "effie@gmail.com"
-    },
-    "85049438-c4b2-40c0-9397-8fbcf7fd85c2": {
-        "id": "85049438-c4b2-40c0-9397-8fbcf7fd85c2",
-        "name": "dddddd",
-        "position": "dddddddd",
-        "email": "ff@gmail.com",
-        "phone": "+380788956789",
-        "intro": "!store.resumesSimpleArray[0]",
-        "skills": "!store.resumesSimpleArray[0]"
-    },
-    "0011412b-9680-4ac4-9933-0bf9fd6141c8": {
-        "id": "0011412b-9680-4ac4-9933-0bf9fd6141c8",
-        "name": "vvvvvvvd",
-        "position": "dvvd",
-        "email": "effie@gmail.com",
-        "phone": "+380788956789",
-        "intro": "vd",
-        "skills": "vd"
-    },
-    "61ff7f4a-5c92-44d0-91f7-c2e61f542758": {
-        "id": "61ff7f4a-5c92-44d0-91f7-c2e61f542758",
-        "name": "new",
-        "position": "e",
-        "email": "effie@gmail.com",
-        "phone": "+380788956789",
-        "intro": "e",
-        "skills": "e"
-    },
-    "690cb511-b15b-4a20-b85b-2cd263a789be": {
-        "id": "690cb511-b15b-4a20-b85b-2cd263a789be",
-        "name": "cccccccc",
-        "position": "ccccccccc",
-        "email": "effie@gmail.com",
-        "phone": "+380788956789",
-        "intro": "ccccccccccc",
-        "skills": "ccccccc"
-    },
-    "bd3195c3-9023-46ff-955a-e00807d779e1": {
-        "id": "bd3195c3-9023-46ff-955a-e00807d779e1",
-        "name": "f",
-        "position": "f",
-        "email": "vv@gmail.com",
-        "phone": "+380788956789",
-        "intro": "ff",
-        "skills": "fff"
-    },
-    "d2f9d202-0776-466f-a679-910c23e6ef40": {
-        "id": "d2f9d202-0776-466f-a679-910c23e6ef40",
-        "name": "f",
-        "position": "u",
-        "email": "g@gmail.com",
-        "phone": "+380789t56789",
-        "intro": "fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
-        "skills": "fff"
-    },
-    "796f9b04-03a4-4032-a302-e10547997f3e": {
-        "id": "796f9b04-03a4-4032-a302-e10547997f3e",
-        "name": "rgggr",
-        "position": "grgrgr",
-        "email": "F@gmail.com",
-        "phone": "+380994966292",
-        "intro": "gfr",
-        "skills": "rg"
-    },
-    "7ec13001-32c2-4ba3-9936-ba33f35e50ca": {
-        "id": "7ec13001-32c2-4ba3-9936-ba33f35e50ca",
-        "name": "fgggggggggW",
-        "position": "wwwww",
-        "email": "F@gmail.com",
-        "phone": "+380788956789",
-        "intro": "fff",
-        "skills": "f"
-    },
-    "5613f2e5-1088-4e5e-b006-664cb6e653b7": {
-        "id": "5613f2e5-1088-4e5e-b006-664cb6e653b7",
-        "name": "FFF",
-        "position": "FF",
-        "email": "effie@gmail.com",
-        "phone": "+380788956789",
-        "intro": "F",
-        "skills": "F"
-    },
-    "453a4421-7e63-4bf1-8623-cae13009d025": {
-        "id": "453a4421-7e63-4bf1-8623-cae13009d025",
-        "name": "EEEEEEEEEEEE",
-        "position": "EEEEEEEEEE",
-        "email": "effie@gmail.com",
-        "phone": "+380788956789",
-        "intro": "E",
-        "skills": "E"
+        "intro": "woof, woof, woof, woof, woof, woof, woof, woof, woof, woof, woof, woof, woof, woof, woof, woof, woof, woof, woof, woof, woof, woof, woof, woof, woof, woof, woof, woof, woof, woof, woof, woof, woof, woof, ",
+        "skills": "lying, sleeping, walking"
     }
 }
